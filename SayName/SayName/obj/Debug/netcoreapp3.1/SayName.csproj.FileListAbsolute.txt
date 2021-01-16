@@ -1,0 +1,13 @@
+C:\Users\sa6ka\developer\GB-CSharp-Course\SayName\SayName\bin\Debug\netcoreapp3.1\SayName.exe
+C:\Users\sa6ka\developer\GB-CSharp-Course\SayName\SayName\bin\Debug\netcoreapp3.1\SayName.deps.json
+C:\Users\sa6ka\developer\GB-CSharp-Course\SayName\SayName\bin\Debug\netcoreapp3.1\SayName.runtimeconfig.json
+C:\Users\sa6ka\developer\GB-CSharp-Course\SayName\SayName\bin\Debug\netcoreapp3.1\SayName.runtimeconfig.dev.json
+C:\Users\sa6ka\developer\GB-CSharp-Course\SayName\SayName\bin\Debug\netcoreapp3.1\SayName.dll
+C:\Users\sa6ka\developer\GB-CSharp-Course\SayName\SayName\bin\Debug\netcoreapp3.1\SayName.pdb
+C:\Users\sa6ka\developer\GB-CSharp-Course\SayName\SayName\obj\Debug\netcoreapp3.1\SayName.csprojAssemblyReference.cache
+C:\Users\sa6ka\developer\GB-CSharp-Course\SayName\SayName\obj\Debug\netcoreapp3.1\SayName.AssemblyInfoInputs.cache
+C:\Users\sa6ka\developer\GB-CSharp-Course\SayName\SayName\obj\Debug\netcoreapp3.1\SayName.AssemblyInfo.cs
+C:\Users\sa6ka\developer\GB-CSharp-Course\SayName\SayName\obj\Debug\netcoreapp3.1\SayName.csproj.CoreCompileInputs.cache
+C:\Users\sa6ka\developer\GB-CSharp-Course\SayName\SayName\obj\Debug\netcoreapp3.1\SayName.dll
+C:\Users\sa6ka\developer\GB-CSharp-Course\SayName\SayName\obj\Debug\netcoreapp3.1\SayName.pdb
+C:\Users\sa6ka\developer\GB-CSharp-Course\SayName\SayName\obj\Debug\netcoreapp3.1\SayName.genruntimeconfig.cache

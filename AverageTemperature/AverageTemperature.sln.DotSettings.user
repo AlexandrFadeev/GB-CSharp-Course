@@ -1,0 +1,9 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ec79f0dc_002D40ae_002D4bc9_002Da1cf_002De836a99429c9/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="PassingCollectionSumTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::0FFD0A20-881A-4D0F-A86A-AB200B38A7F6::.NETCoreApp,Version=v3.1::AverageTemperatureTests.CollectionSumTest&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::0FFD0A20-881A-4D0F-A86A-AB200B38A7F6::.NETCoreApp,Version=v3.1::AverageTemperatureTests.AverageTest.PassingAverageTest&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::0FFD0A20-881A-4D0F-A86A-AB200B38A7F6::.NETCoreApp,Version=v3.1::AverageTemperatureTests.AverageTest.FailingAverageTest&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::0FFD0A20-881A-4D0F-A86A-AB200B38A7F6::.NETCoreApp,Version=v3.1::AverageTemperatureTests.AverageTest&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

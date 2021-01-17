@@ -1,0 +1,12 @@
+/Users/alex/Developer/c#/GB-CSharp-Course/AverageTemperature/AverageTemperature/bin/Debug/netcoreapp3.1/AverageTemperature.deps.json
+/Users/alex/Developer/c#/GB-CSharp-Course/AverageTemperature/AverageTemperature/bin/Debug/netcoreapp3.1/AverageTemperature.runtimeconfig.json
+/Users/alex/Developer/c#/GB-CSharp-Course/AverageTemperature/AverageTemperature/bin/Debug/netcoreapp3.1/AverageTemperature.runtimeconfig.dev.json
+/Users/alex/Developer/c#/GB-CSharp-Course/AverageTemperature/AverageTemperature/bin/Debug/netcoreapp3.1/AverageTemperature.dll
+/Users/alex/Developer/c#/GB-CSharp-Course/AverageTemperature/AverageTemperature/bin/Debug/netcoreapp3.1/AverageTemperature.pdb
+/Users/alex/Developer/c#/GB-CSharp-Course/AverageTemperature/AverageTemperature/obj/Debug/netcoreapp3.1/AverageTemperature.csprojAssemblyReference.cache
+/Users/alex/Developer/c#/GB-CSharp-Course/AverageTemperature/AverageTemperature/obj/Debug/netcoreapp3.1/AverageTemperature.AssemblyInfoInputs.cache
+/Users/alex/Developer/c#/GB-CSharp-Course/AverageTemperature/AverageTemperature/obj/Debug/netcoreapp3.1/AverageTemperature.AssemblyInfo.cs
+/Users/alex/Developer/c#/GB-CSharp-Course/AverageTemperature/AverageTemperature/obj/Debug/netcoreapp3.1/AverageTemperature.csproj.CoreCompileInputs.cache
+/Users/alex/Developer/c#/GB-CSharp-Course/AverageTemperature/AverageTemperature/obj/Debug/netcoreapp3.1/AverageTemperature.dll
+/Users/alex/Developer/c#/GB-CSharp-Course/AverageTemperature/AverageTemperature/obj/Debug/netcoreapp3.1/AverageTemperature.pdb
+/Users/alex/Developer/c#/GB-CSharp-Course/AverageTemperature/AverageTemperature/obj/Debug/netcoreapp3.1/AverageTemperature.genruntimeconfig.cache

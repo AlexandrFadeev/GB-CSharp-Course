@@ -1,0 +1,12 @@
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework2/Receipt/bin/Debug/netcoreapp3.1/Receipt.deps.json
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework2/Receipt/bin/Debug/netcoreapp3.1/Receipt.runtimeconfig.json
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework2/Receipt/bin/Debug/netcoreapp3.1/Receipt.runtimeconfig.dev.json
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework2/Receipt/bin/Debug/netcoreapp3.1/Receipt.dll
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework2/Receipt/bin/Debug/netcoreapp3.1/Receipt.pdb
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework2/Receipt/obj/Debug/netcoreapp3.1/Receipt.csprojAssemblyReference.cache
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework2/Receipt/obj/Debug/netcoreapp3.1/Receipt.AssemblyInfoInputs.cache
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework2/Receipt/obj/Debug/netcoreapp3.1/Receipt.AssemblyInfo.cs
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework2/Receipt/obj/Debug/netcoreapp3.1/Receipt.csproj.CoreCompileInputs.cache
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework2/Receipt/obj/Debug/netcoreapp3.1/Receipt.dll
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework2/Receipt/obj/Debug/netcoreapp3.1/Receipt.pdb
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework2/Receipt/obj/Debug/netcoreapp3.1/Receipt.genruntimeconfig.cache

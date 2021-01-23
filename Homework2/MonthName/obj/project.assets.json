@@ -1,0 +1,86 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "AverageTemperature/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/AverageTemperature.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AverageTemperature.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AverageTemperature/1.0.0": {
+      "type": "project",
+      "path": "../AverageTemperature/AverageTemperature.csproj",
+      "msbuildProject": "../AverageTemperature/AverageTemperature.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "AverageTemperature >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/alex/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/alex/Developer/c#/GB-CSharp-Course/Homework2/MonthName/MonthName.csproj",
+      "projectName": "MonthName",
+      "projectPath": "/Users/alex/Developer/c#/GB-CSharp-Course/Homework2/MonthName/MonthName.csproj",
+      "packagesPath": "/Users/alex/.nuget/packages/",
+      "outputPath": "/Users/alex/Developer/c#/GB-CSharp-Course/Homework2/MonthName/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/alex/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "/Users/alex/Developer/c#/GB-CSharp-Course/Homework2/AverageTemperature/AverageTemperature.csproj": {
+              "projectPath": "/Users/alex/Developer/c#/GB-CSharp-Course/Homework2/AverageTemperature/AverageTemperature.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.405/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

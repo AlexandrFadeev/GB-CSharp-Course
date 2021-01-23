@@ -40,5 +40,10 @@ namespace AverageTemperature
         {
             Console.WriteLine($"Maximum temperature must be higher or equal of {minTemperature}");
         }
+
+        public void ShowChooseMonthMessage()
+        {
+            Console.WriteLine("Please enter number of moth. Available range is from 1 to 12");
+        }
     }
 }

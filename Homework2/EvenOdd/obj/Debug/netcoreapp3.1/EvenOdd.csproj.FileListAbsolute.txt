@@ -1,0 +1,12 @@
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework2/EvenOdd/bin/Debug/netcoreapp3.1/EvenOdd.deps.json
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework2/EvenOdd/bin/Debug/netcoreapp3.1/EvenOdd.runtimeconfig.json
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework2/EvenOdd/bin/Debug/netcoreapp3.1/EvenOdd.runtimeconfig.dev.json
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework2/EvenOdd/bin/Debug/netcoreapp3.1/EvenOdd.dll
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework2/EvenOdd/bin/Debug/netcoreapp3.1/EvenOdd.pdb
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework2/EvenOdd/obj/Debug/netcoreapp3.1/EvenOdd.csprojAssemblyReference.cache
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework2/EvenOdd/obj/Debug/netcoreapp3.1/EvenOdd.AssemblyInfoInputs.cache
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework2/EvenOdd/obj/Debug/netcoreapp3.1/EvenOdd.AssemblyInfo.cs
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework2/EvenOdd/obj/Debug/netcoreapp3.1/EvenOdd.csproj.CoreCompileInputs.cache
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework2/EvenOdd/obj/Debug/netcoreapp3.1/EvenOdd.dll
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework2/EvenOdd/obj/Debug/netcoreapp3.1/EvenOdd.pdb
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework2/EvenOdd/obj/Debug/netcoreapp3.1/EvenOdd.genruntimeconfig.cache

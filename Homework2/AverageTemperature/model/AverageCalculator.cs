@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace AverageTemperature.model
 {
-    public class AverageCalculator : IAverageCalculator_
+    public class AverageCalculator : IAverageCalculator
     {
         // Initializers
         public AverageCalculator(int[] collection)
@@ -11,16 +11,14 @@ namespace AverageTemperature.model
             Collection = collection;
         }
         
-        // Private propertis
+        // Private properties
         public int[] Collection { get; set; }
 
         // Interface implementation
         public double CalculatedAverage()
         {
             double sum = CollectionSum();
-            double collecitonLenght = Collection.Length;
-
-            return sum / collecitonLenght;
+            return sum / Collection.Length;
         }
 
         public int CollectionSum()

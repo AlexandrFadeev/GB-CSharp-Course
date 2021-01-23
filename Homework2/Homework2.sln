@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AverageTemperatureTests", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonthName", "MonthName\MonthName.csproj", "{981D8D87-7736-42BA-8DEE-958DA9E31110}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvenOdd", "EvenOdd\EvenOdd.csproj", "{99B45ABC-E302-4706-B791-38A882552B44}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{981D8D87-7736-42BA-8DEE-958DA9E31110}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{981D8D87-7736-42BA-8DEE-958DA9E31110}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{981D8D87-7736-42BA-8DEE-958DA9E31110}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99B45ABC-E302-4706-B791-38A882552B44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99B45ABC-E302-4706-B791-38A882552B44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99B45ABC-E302-4706-B791-38A882552B44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99B45ABC-E302-4706-B791-38A882552B44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

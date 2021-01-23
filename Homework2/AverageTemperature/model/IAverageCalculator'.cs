@@ -1,10 +1,11 @@
-namespace AverageTemperature
+namespace AverageTemperature.model
 {
-    public interface IAverageCalculator_
+    public interface IAverageCalculator
     {
-        // Currently this method work only with `int`.
-        // It can be improved in future using generics
         double CalculatedAverage();
+        
+        // Currently this method work only with `int` type
+        // It can be improved in future using generics
         int CollectionSum();
     }
 }

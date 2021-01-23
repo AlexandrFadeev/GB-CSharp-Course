@@ -11,11 +11,6 @@ namespace AverageTemperature
             Console.WriteLine("--------------------------------------------------------");
         }
 
-        public void ShowWelcomeMessage()
-        {
-            Console.WriteLine("Welcome to Average temperature app. If you want to quit app, please press q -> Return");
-        }
-
         public void ShowInvalidInputMessage()
         {
             Console.WriteLine("Invalid input. Please enter Integer number. Try again? Y/N");

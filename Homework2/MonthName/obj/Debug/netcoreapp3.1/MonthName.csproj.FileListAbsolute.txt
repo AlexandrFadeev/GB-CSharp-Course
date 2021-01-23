@@ -1,0 +1,15 @@
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework2/MonthName/bin/Debug/netcoreapp3.1/MonthName.deps.json
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework2/MonthName/bin/Debug/netcoreapp3.1/MonthName.runtimeconfig.json
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework2/MonthName/bin/Debug/netcoreapp3.1/MonthName.runtimeconfig.dev.json
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework2/MonthName/bin/Debug/netcoreapp3.1/MonthName.dll
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework2/MonthName/bin/Debug/netcoreapp3.1/MonthName.pdb
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework2/MonthName/bin/Debug/netcoreapp3.1/AverageTemperature.dll
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework2/MonthName/bin/Debug/netcoreapp3.1/AverageTemperature.pdb
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework2/MonthName/obj/Debug/netcoreapp3.1/MonthName.csprojAssemblyReference.cache
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework2/MonthName/obj/Debug/netcoreapp3.1/MonthName.AssemblyInfoInputs.cache
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework2/MonthName/obj/Debug/netcoreapp3.1/MonthName.AssemblyInfo.cs
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework2/MonthName/obj/Debug/netcoreapp3.1/MonthName.csproj.CoreCompileInputs.cache
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework2/MonthName/obj/Debug/netcoreapp3.1/MonthName.csproj.CopyComplete
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework2/MonthName/obj/Debug/netcoreapp3.1/MonthName.dll
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework2/MonthName/obj/Debug/netcoreapp3.1/MonthName.pdb
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework2/MonthName/obj/Debug/netcoreapp3.1/MonthName.genruntimeconfig.cache

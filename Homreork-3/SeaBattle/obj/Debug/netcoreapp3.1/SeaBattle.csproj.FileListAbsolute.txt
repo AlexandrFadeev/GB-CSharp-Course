@@ -1,0 +1,12 @@
+/Users/alex/Developer/c#/GB-CSharp-Course/Homreork-3/SeaBattle/bin/Debug/netcoreapp3.1/SeaBattle.deps.json
+/Users/alex/Developer/c#/GB-CSharp-Course/Homreork-3/SeaBattle/bin/Debug/netcoreapp3.1/SeaBattle.runtimeconfig.json
+/Users/alex/Developer/c#/GB-CSharp-Course/Homreork-3/SeaBattle/bin/Debug/netcoreapp3.1/SeaBattle.runtimeconfig.dev.json
+/Users/alex/Developer/c#/GB-CSharp-Course/Homreork-3/SeaBattle/bin/Debug/netcoreapp3.1/SeaBattle.dll
+/Users/alex/Developer/c#/GB-CSharp-Course/Homreork-3/SeaBattle/bin/Debug/netcoreapp3.1/SeaBattle.pdb
+/Users/alex/Developer/c#/GB-CSharp-Course/Homreork-3/SeaBattle/obj/Debug/netcoreapp3.1/SeaBattle.csprojAssemblyReference.cache
+/Users/alex/Developer/c#/GB-CSharp-Course/Homreork-3/SeaBattle/obj/Debug/netcoreapp3.1/SeaBattle.AssemblyInfoInputs.cache
+/Users/alex/Developer/c#/GB-CSharp-Course/Homreork-3/SeaBattle/obj/Debug/netcoreapp3.1/SeaBattle.AssemblyInfo.cs
+/Users/alex/Developer/c#/GB-CSharp-Course/Homreork-3/SeaBattle/obj/Debug/netcoreapp3.1/SeaBattle.csproj.CoreCompileInputs.cache
+/Users/alex/Developer/c#/GB-CSharp-Course/Homreork-3/SeaBattle/obj/Debug/netcoreapp3.1/SeaBattle.dll
+/Users/alex/Developer/c#/GB-CSharp-Course/Homreork-3/SeaBattle/obj/Debug/netcoreapp3.1/SeaBattle.pdb
+/Users/alex/Developer/c#/GB-CSharp-Course/Homreork-3/SeaBattle/obj/Debug/netcoreapp3.1/SeaBattle.genruntimeconfig.cache

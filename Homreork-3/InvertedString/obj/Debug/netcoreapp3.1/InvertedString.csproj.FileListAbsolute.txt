@@ -1,0 +1,12 @@
+/Users/alex/Developer/c#/GB-CSharp-Course/Homreork-3/InvertedString/bin/Debug/netcoreapp3.1/InvertedString.deps.json
+/Users/alex/Developer/c#/GB-CSharp-Course/Homreork-3/InvertedString/bin/Debug/netcoreapp3.1/InvertedString.runtimeconfig.json
+/Users/alex/Developer/c#/GB-CSharp-Course/Homreork-3/InvertedString/bin/Debug/netcoreapp3.1/InvertedString.runtimeconfig.dev.json
+/Users/alex/Developer/c#/GB-CSharp-Course/Homreork-3/InvertedString/bin/Debug/netcoreapp3.1/InvertedString.dll
+/Users/alex/Developer/c#/GB-CSharp-Course/Homreork-3/InvertedString/bin/Debug/netcoreapp3.1/InvertedString.pdb
+/Users/alex/Developer/c#/GB-CSharp-Course/Homreork-3/InvertedString/obj/Debug/netcoreapp3.1/InvertedString.csprojAssemblyReference.cache
+/Users/alex/Developer/c#/GB-CSharp-Course/Homreork-3/InvertedString/obj/Debug/netcoreapp3.1/InvertedString.AssemblyInfoInputs.cache
+/Users/alex/Developer/c#/GB-CSharp-Course/Homreork-3/InvertedString/obj/Debug/netcoreapp3.1/InvertedString.AssemblyInfo.cs
+/Users/alex/Developer/c#/GB-CSharp-Course/Homreork-3/InvertedString/obj/Debug/netcoreapp3.1/InvertedString.csproj.CoreCompileInputs.cache
+/Users/alex/Developer/c#/GB-CSharp-Course/Homreork-3/InvertedString/obj/Debug/netcoreapp3.1/InvertedString.dll
+/Users/alex/Developer/c#/GB-CSharp-Course/Homreork-3/InvertedString/obj/Debug/netcoreapp3.1/InvertedString.pdb
+/Users/alex/Developer/c#/GB-CSharp-Course/Homreork-3/InvertedString/obj/Debug/netcoreapp3.1/InvertedString.genruntimeconfig.cache

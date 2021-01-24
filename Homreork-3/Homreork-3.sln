@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneBook", "PhoneBook\Phon
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvertedString", "InvertedString\InvertedString.csproj", "{D642B443-930C-43F7-9FAD-4F863DC8ADCC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeaBattle", "SeaBattle\SeaBattle.csproj", "{5473C571-1576-4AD2-8C8B-D9A4B4FA6B19}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{D642B443-930C-43F7-9FAD-4F863DC8ADCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D642B443-930C-43F7-9FAD-4F863DC8ADCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D642B443-930C-43F7-9FAD-4F863DC8ADCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5473C571-1576-4AD2-8C8B-D9A4B4FA6B19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5473C571-1576-4AD2-8C8B-D9A4B4FA6B19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5473C571-1576-4AD2-8C8B-D9A4B4FA6B19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5473C571-1576-4AD2-8C8B-D9A4B4FA6B19}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

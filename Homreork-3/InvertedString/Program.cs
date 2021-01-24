@@ -6,10 +6,11 @@ namespace InvertedString
 {
     class Program
     {
-        private const string Text = "Hello";
+        
         static void Main(string[] args)
         {
-            Console.WriteLine($"Inverted text Hello: [ {InvertString(Text)} ]");
+            var userInput = Console.ReadLine();
+            Console.WriteLine($"Inverted text {userInput}: [ {InvertString(userInput)} ]");
         }
 
         static string InvertString(string text)

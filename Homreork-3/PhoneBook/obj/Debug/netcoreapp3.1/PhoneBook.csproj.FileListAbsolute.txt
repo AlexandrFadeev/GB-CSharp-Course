@@ -1,0 +1,12 @@
+/Users/alex/Developer/c#/GB-CSharp-Course/Homreork-3/PhoneBook/bin/Debug/netcoreapp3.1/PhoneBook.deps.json
+/Users/alex/Developer/c#/GB-CSharp-Course/Homreork-3/PhoneBook/bin/Debug/netcoreapp3.1/PhoneBook.runtimeconfig.json
+/Users/alex/Developer/c#/GB-CSharp-Course/Homreork-3/PhoneBook/bin/Debug/netcoreapp3.1/PhoneBook.runtimeconfig.dev.json
+/Users/alex/Developer/c#/GB-CSharp-Course/Homreork-3/PhoneBook/bin/Debug/netcoreapp3.1/PhoneBook.dll
+/Users/alex/Developer/c#/GB-CSharp-Course/Homreork-3/PhoneBook/bin/Debug/netcoreapp3.1/PhoneBook.pdb
+/Users/alex/Developer/c#/GB-CSharp-Course/Homreork-3/PhoneBook/obj/Debug/netcoreapp3.1/PhoneBook.csprojAssemblyReference.cache
+/Users/alex/Developer/c#/GB-CSharp-Course/Homreork-3/PhoneBook/obj/Debug/netcoreapp3.1/PhoneBook.AssemblyInfoInputs.cache
+/Users/alex/Developer/c#/GB-CSharp-Course/Homreork-3/PhoneBook/obj/Debug/netcoreapp3.1/PhoneBook.AssemblyInfo.cs
+/Users/alex/Developer/c#/GB-CSharp-Course/Homreork-3/PhoneBook/obj/Debug/netcoreapp3.1/PhoneBook.csproj.CoreCompileInputs.cache
+/Users/alex/Developer/c#/GB-CSharp-Course/Homreork-3/PhoneBook/obj/Debug/netcoreapp3.1/PhoneBook.dll
+/Users/alex/Developer/c#/GB-CSharp-Course/Homreork-3/PhoneBook/obj/Debug/netcoreapp3.1/PhoneBook.pdb
+/Users/alex/Developer/c#/GB-CSharp-Course/Homreork-3/PhoneBook/obj/Debug/netcoreapp3.1/PhoneBook.genruntimeconfig.cache

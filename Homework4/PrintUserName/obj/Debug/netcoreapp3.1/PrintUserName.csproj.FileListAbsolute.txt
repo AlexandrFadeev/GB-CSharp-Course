@@ -1,0 +1,13 @@
+C:\Users\sa6ka\developer\GB-CSharp-Course\Homework4\PrintUserName\bin\Debug\netcoreapp3.1\PrintUserName.exe
+C:\Users\sa6ka\developer\GB-CSharp-Course\Homework4\PrintUserName\bin\Debug\netcoreapp3.1\PrintUserName.deps.json
+C:\Users\sa6ka\developer\GB-CSharp-Course\Homework4\PrintUserName\bin\Debug\netcoreapp3.1\PrintUserName.runtimeconfig.json
+C:\Users\sa6ka\developer\GB-CSharp-Course\Homework4\PrintUserName\bin\Debug\netcoreapp3.1\PrintUserName.runtimeconfig.dev.json
+C:\Users\sa6ka\developer\GB-CSharp-Course\Homework4\PrintUserName\bin\Debug\netcoreapp3.1\PrintUserName.dll
+C:\Users\sa6ka\developer\GB-CSharp-Course\Homework4\PrintUserName\bin\Debug\netcoreapp3.1\PrintUserName.pdb
+C:\Users\sa6ka\developer\GB-CSharp-Course\Homework4\PrintUserName\obj\Debug\netcoreapp3.1\PrintUserName.csprojAssemblyReference.cache
+C:\Users\sa6ka\developer\GB-CSharp-Course\Homework4\PrintUserName\obj\Debug\netcoreapp3.1\PrintUserName.AssemblyInfoInputs.cache
+C:\Users\sa6ka\developer\GB-CSharp-Course\Homework4\PrintUserName\obj\Debug\netcoreapp3.1\PrintUserName.AssemblyInfo.cs
+C:\Users\sa6ka\developer\GB-CSharp-Course\Homework4\PrintUserName\obj\Debug\netcoreapp3.1\PrintUserName.csproj.CoreCompileInputs.cache
+C:\Users\sa6ka\developer\GB-CSharp-Course\Homework4\PrintUserName\obj\Debug\netcoreapp3.1\PrintUserName.dll
+C:\Users\sa6ka\developer\GB-CSharp-Course\Homework4\PrintUserName\obj\Debug\netcoreapp3.1\PrintUserName.pdb
+C:\Users\sa6ka\developer\GB-CSharp-Course\Homework4\PrintUserName\obj\Debug\netcoreapp3.1\PrintUserName.genruntimeconfig.cache

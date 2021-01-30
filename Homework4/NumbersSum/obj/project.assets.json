@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/alex/Developer/c#/GB-CSharp-Course/Homework4/PrintUserName/PrintUserName.csproj",
-      "projectName": "PrintUserName",
-      "projectPath": "/Users/alex/Developer/c#/GB-CSharp-Course/Homework4/PrintUserName/PrintUserName.csproj",
+      "projectUniqueName": "/Users/alex/Developer/c#/GB-CSharp-Course/Homework4/NumbersSum/NumbersSum.csproj",
+      "projectName": "NumbersSum",
+      "projectPath": "/Users/alex/Developer/c#/GB-CSharp-Course/Homework4/NumbersSum/NumbersSum.csproj",
       "packagesPath": "/Users/alex/.nuget/packages/",
-      "outputPath": "/Users/alex/Developer/c#/GB-CSharp-Course/Homework4/PrintUserName/obj/",
+      "outputPath": "/Users/alex/Developer/c#/GB-CSharp-Course/Homework4/NumbersSum/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/alex/.nuget/NuGet/NuGet.Config"

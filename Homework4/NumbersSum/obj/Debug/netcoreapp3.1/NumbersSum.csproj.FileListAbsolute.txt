@@ -1,0 +1,12 @@
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework4/NumbersSum/bin/Debug/netcoreapp3.1/NumbersSum.deps.json
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework4/NumbersSum/bin/Debug/netcoreapp3.1/NumbersSum.runtimeconfig.json
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework4/NumbersSum/bin/Debug/netcoreapp3.1/NumbersSum.runtimeconfig.dev.json
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework4/NumbersSum/bin/Debug/netcoreapp3.1/NumbersSum.dll
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework4/NumbersSum/bin/Debug/netcoreapp3.1/NumbersSum.pdb
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework4/NumbersSum/obj/Debug/netcoreapp3.1/NumbersSum.csprojAssemblyReference.cache
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework4/NumbersSum/obj/Debug/netcoreapp3.1/NumbersSum.AssemblyInfoInputs.cache
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework4/NumbersSum/obj/Debug/netcoreapp3.1/NumbersSum.AssemblyInfo.cs
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework4/NumbersSum/obj/Debug/netcoreapp3.1/NumbersSum.csproj.CoreCompileInputs.cache
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework4/NumbersSum/obj/Debug/netcoreapp3.1/NumbersSum.dll
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework4/NumbersSum/obj/Debug/netcoreapp3.1/NumbersSum.pdb
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework4/NumbersSum/obj/Debug/netcoreapp3.1/NumbersSum.genruntimeconfig.cache

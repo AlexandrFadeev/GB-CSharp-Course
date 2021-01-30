@@ -7,6 +7,7 @@ namespace NumbersSum
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Please enter number to find their sum. Numbers must be separated with `space`");
             var userInput = Console.ReadLine();
 
             if (userInput == null)

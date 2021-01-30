@@ -1,0 +1,12 @@
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework4/SeasonYear/bin/Debug/netcoreapp3.1/SeasonYear.deps.json
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework4/SeasonYear/bin/Debug/netcoreapp3.1/SeasonYear.runtimeconfig.json
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework4/SeasonYear/bin/Debug/netcoreapp3.1/SeasonYear.runtimeconfig.dev.json
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework4/SeasonYear/bin/Debug/netcoreapp3.1/SeasonYear.dll
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework4/SeasonYear/bin/Debug/netcoreapp3.1/SeasonYear.pdb
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework4/SeasonYear/obj/Debug/netcoreapp3.1/SeasonYear.csprojAssemblyReference.cache
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework4/SeasonYear/obj/Debug/netcoreapp3.1/SeasonYear.AssemblyInfoInputs.cache
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework4/SeasonYear/obj/Debug/netcoreapp3.1/SeasonYear.AssemblyInfo.cs
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework4/SeasonYear/obj/Debug/netcoreapp3.1/SeasonYear.csproj.CoreCompileInputs.cache
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework4/SeasonYear/obj/Debug/netcoreapp3.1/SeasonYear.dll
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework4/SeasonYear/obj/Debug/netcoreapp3.1/SeasonYear.pdb
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework4/SeasonYear/obj/Debug/netcoreapp3.1/SeasonYear.genruntimeconfig.cache

@@ -1,0 +1,12 @@
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework4/Fibonacci/bin/Debug/netcoreapp3.1/Fibonacci.deps.json
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework4/Fibonacci/bin/Debug/netcoreapp3.1/Fibonacci.runtimeconfig.json
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework4/Fibonacci/bin/Debug/netcoreapp3.1/Fibonacci.runtimeconfig.dev.json
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework4/Fibonacci/bin/Debug/netcoreapp3.1/Fibonacci.dll
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework4/Fibonacci/bin/Debug/netcoreapp3.1/Fibonacci.pdb
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework4/Fibonacci/obj/Debug/netcoreapp3.1/Fibonacci.csprojAssemblyReference.cache
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework4/Fibonacci/obj/Debug/netcoreapp3.1/Fibonacci.AssemblyInfoInputs.cache
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework4/Fibonacci/obj/Debug/netcoreapp3.1/Fibonacci.AssemblyInfo.cs
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework4/Fibonacci/obj/Debug/netcoreapp3.1/Fibonacci.csproj.CoreCompileInputs.cache
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework4/Fibonacci/obj/Debug/netcoreapp3.1/Fibonacci.dll
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework4/Fibonacci/obj/Debug/netcoreapp3.1/Fibonacci.pdb
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework4/Fibonacci/obj/Debug/netcoreapp3.1/Fibonacci.genruntimeconfig.cache

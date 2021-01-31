@@ -1,0 +1,15 @@
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework5/SaveToFile/bin/Debug/netcoreapp3.1/SaveToFile.deps.json
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework5/SaveToFile/bin/Debug/netcoreapp3.1/SaveToFile.runtimeconfig.json
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework5/SaveToFile/bin/Debug/netcoreapp3.1/SaveToFile.runtimeconfig.dev.json
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework5/SaveToFile/bin/Debug/netcoreapp3.1/SaveToFile.dll
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework5/SaveToFile/bin/Debug/netcoreapp3.1/SaveToFile.pdb
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework5/SaveToFile/bin/Debug/netcoreapp3.1/FileManager.dll
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework5/SaveToFile/bin/Debug/netcoreapp3.1/FileManager.pdb
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework5/SaveToFile/obj/Debug/netcoreapp3.1/SaveToFile.csprojAssemblyReference.cache
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework5/SaveToFile/obj/Debug/netcoreapp3.1/SaveToFile.AssemblyInfoInputs.cache
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework5/SaveToFile/obj/Debug/netcoreapp3.1/SaveToFile.AssemblyInfo.cs
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework5/SaveToFile/obj/Debug/netcoreapp3.1/SaveToFile.csproj.CoreCompileInputs.cache
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework5/SaveToFile/obj/Debug/netcoreapp3.1/SaveToFile.csproj.CopyComplete
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework5/SaveToFile/obj/Debug/netcoreapp3.1/SaveToFile.dll
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework5/SaveToFile/obj/Debug/netcoreapp3.1/SaveToFile.pdb
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework5/SaveToFile/obj/Debug/netcoreapp3.1/SaveToFile.genruntimeconfig.cache

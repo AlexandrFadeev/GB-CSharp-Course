@@ -1,0 +1,12 @@
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework5/FileManager/bin/Debug/netcoreapp3.1/FileManager.deps.json
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework5/FileManager/bin/Debug/netcoreapp3.1/FileManager.runtimeconfig.json
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework5/FileManager/bin/Debug/netcoreapp3.1/FileManager.runtimeconfig.dev.json
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework5/FileManager/bin/Debug/netcoreapp3.1/FileManager.dll
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework5/FileManager/bin/Debug/netcoreapp3.1/FileManager.pdb
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework5/FileManager/obj/Debug/netcoreapp3.1/FileManager.csprojAssemblyReference.cache
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework5/FileManager/obj/Debug/netcoreapp3.1/FileManager.AssemblyInfoInputs.cache
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework5/FileManager/obj/Debug/netcoreapp3.1/FileManager.AssemblyInfo.cs
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework5/FileManager/obj/Debug/netcoreapp3.1/FileManager.csproj.CoreCompileInputs.cache
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework5/FileManager/obj/Debug/netcoreapp3.1/FileManager.dll
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework5/FileManager/obj/Debug/netcoreapp3.1/FileManager.pdb
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework5/FileManager/obj/Debug/netcoreapp3.1/FileManager.genruntimeconfig.cache

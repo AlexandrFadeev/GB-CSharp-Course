@@ -1,0 +1,12 @@
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework5/BinarySerializator/bin/Debug/netcoreapp3.1/BinarySerializator.deps.json
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework5/BinarySerializator/bin/Debug/netcoreapp3.1/BinarySerializator.runtimeconfig.json
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework5/BinarySerializator/bin/Debug/netcoreapp3.1/BinarySerializator.runtimeconfig.dev.json
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework5/BinarySerializator/bin/Debug/netcoreapp3.1/BinarySerializator.dll
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework5/BinarySerializator/bin/Debug/netcoreapp3.1/BinarySerializator.pdb
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework5/BinarySerializator/obj/Debug/netcoreapp3.1/BinarySerializator.csprojAssemblyReference.cache
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework5/BinarySerializator/obj/Debug/netcoreapp3.1/BinarySerializator.AssemblyInfoInputs.cache
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework5/BinarySerializator/obj/Debug/netcoreapp3.1/BinarySerializator.AssemblyInfo.cs
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework5/BinarySerializator/obj/Debug/netcoreapp3.1/BinarySerializator.csproj.CoreCompileInputs.cache
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework5/BinarySerializator/obj/Debug/netcoreapp3.1/BinarySerializator.dll
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework5/BinarySerializator/obj/Debug/netcoreapp3.1/BinarySerializator.pdb
+/Users/alex/Developer/c#/GB-CSharp-Course/Homework5/BinarySerializator/obj/Debug/netcoreapp3.1/BinarySerializator.genruntimeconfig.cache

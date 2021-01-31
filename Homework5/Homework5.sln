@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaveToFile", "SaveToFile\Sa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddTimeToFile", "AddTimeToFile\AddTimeToFile.csproj", "{D0401A54-EB21-48D5-8C18-A7AF82262077}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySerializator", "BinarySerializator\BinarySerializator.csproj", "{FE56E882-14B9-48C8-BB5E-870F00792C53}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{D0401A54-EB21-48D5-8C18-A7AF82262077}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0401A54-EB21-48D5-8C18-A7AF82262077}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0401A54-EB21-48D5-8C18-A7AF82262077}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE56E882-14B9-48C8-BB5E-870F00792C53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE56E882-14B9-48C8-BB5E-870F00792C53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE56E882-14B9-48C8-BB5E-870F00792C53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE56E882-14B9-48C8-BB5E-870F00792C53}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

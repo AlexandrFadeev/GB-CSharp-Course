@@ -1,0 +1,12 @@
+/Users/alex/Developer/C#/GB-CSharp-Course/Algorithms1/Algorithms1/bin/Debug/netcoreapp3.1/Algorithms1.deps.json
+/Users/alex/Developer/C#/GB-CSharp-Course/Algorithms1/Algorithms1/bin/Debug/netcoreapp3.1/Algorithms1.runtimeconfig.json
+/Users/alex/Developer/C#/GB-CSharp-Course/Algorithms1/Algorithms1/bin/Debug/netcoreapp3.1/Algorithms1.runtimeconfig.dev.json
+/Users/alex/Developer/C#/GB-CSharp-Course/Algorithms1/Algorithms1/bin/Debug/netcoreapp3.1/Algorithms1.dll
+/Users/alex/Developer/C#/GB-CSharp-Course/Algorithms1/Algorithms1/bin/Debug/netcoreapp3.1/Algorithms1.pdb
+/Users/alex/Developer/C#/GB-CSharp-Course/Algorithms1/Algorithms1/obj/Debug/netcoreapp3.1/Algorithms1.csprojAssemblyReference.cache
+/Users/alex/Developer/C#/GB-CSharp-Course/Algorithms1/Algorithms1/obj/Debug/netcoreapp3.1/Algorithms1.AssemblyInfoInputs.cache
+/Users/alex/Developer/C#/GB-CSharp-Course/Algorithms1/Algorithms1/obj/Debug/netcoreapp3.1/Algorithms1.AssemblyInfo.cs
+/Users/alex/Developer/C#/GB-CSharp-Course/Algorithms1/Algorithms1/obj/Debug/netcoreapp3.1/Algorithms1.csproj.CoreCompileInputs.cache
+/Users/alex/Developer/C#/GB-CSharp-Course/Algorithms1/Algorithms1/obj/Debug/netcoreapp3.1/Algorithms1.dll
+/Users/alex/Developer/C#/GB-CSharp-Course/Algorithms1/Algorithms1/obj/Debug/netcoreapp3.1/Algorithms1.pdb
+/Users/alex/Developer/C#/GB-CSharp-Course/Algorithms1/Algorithms1/obj/Debug/netcoreapp3.1/Algorithms1.genruntimeconfig.cache

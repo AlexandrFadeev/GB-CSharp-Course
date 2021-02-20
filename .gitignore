@@ -4,6 +4,9 @@
 # Jetbrain Rider Cache
 .idea/
 Assets/Plugins/Editor/JetBrains*
+*.cache
+*.txt
+*.dll
 
 # Visual Studio Code
 .vscode/
@@ -30,5 +33,7 @@ ExportedObj/
 
 #macOS
 .DS_Store
+
+
 
 # End of https://www.gitignore.io/api/unity

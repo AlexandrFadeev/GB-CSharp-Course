@@ -8,7 +8,7 @@ namespace Algorithms1
             
         }
         
-        // Asymptotic complexity for this method if O(n^3), cos here we have 3 nested loops with same array lenght.
+        // Asymptotic complexity for this method is O(n^3), cos here we have 3 nested loops with same array lenght.
         // This means that time complexity of this method is cubic.
         // Example: if `input array` have 8 elements, then there will be approx 512 iterations 
         public static int StrangeSum(int[] inputArray) 

@@ -14,38 +14,30 @@ namespace Algorithms1UnitTest
             _primeNumber = new PrimeNumber();
         }
 
-        [Test]
-        public void Test1()
+        [TestCase(1)]
+        [TestCase(3)]
+        [TestCase(5)]
+        [TestCase(7)]
+        [TestCase(53)]
+        [TestCase(139)]
+        [TestCase(199)]
+        public void PassingTest(int number)
         {
-            
+            Assert.IsTrue(_primeNumber.IsPrimeNumber(number));
         }
 
-        [Test]
-        public void PassingTest()
+        [TestCase(4)]
+        [TestCase(6)]
+        [TestCase(8)]
+        [TestCase(24)]
+        [TestCase(30)]
+        [TestCase(52)]
+        [TestCase(34)]
+        [TestCase(72)]
+        [TestCase(140)]
+        public void FailingTest(int number)
         {
-            Assert.IsTrue(_primeNumber.IsPrimeNumber(1));
-            Assert.IsTrue(_primeNumber.IsPrimeNumber(2));
-            Assert.IsTrue(_primeNumber.IsPrimeNumber(3));
-            Assert.IsTrue(_primeNumber.IsPrimeNumber(5));
-            Assert.IsTrue(_primeNumber.IsPrimeNumber(7));
-            Assert.IsTrue(_primeNumber.IsPrimeNumber(53));
-            Assert.IsTrue(_primeNumber.IsPrimeNumber(59));
-            Assert.IsTrue(_primeNumber.IsPrimeNumber(139));
-            Assert.IsTrue(_primeNumber.IsPrimeNumber(199));
-        }
-
-        [Test]
-        public void FailingTest()
-        {
-            Assert.IsFalse(_primeNumber.IsPrimeNumber(4));
-            Assert.IsFalse(_primeNumber.IsPrimeNumber(6));
-            Assert.IsFalse(_primeNumber.IsPrimeNumber(8));
-            Assert.IsFalse(_primeNumber.IsPrimeNumber(40));
-            Assert.IsFalse(_primeNumber.IsPrimeNumber(52));
-            Assert.IsFalse(_primeNumber.IsPrimeNumber(54));
-            Assert.IsFalse(_primeNumber.IsPrimeNumber(72));
-            Assert.IsFalse(_primeNumber.IsPrimeNumber(138));
-            Assert.IsFalse(_primeNumber.IsPrimeNumber(140));
+            Assert.IsFalse(_primeNumber.IsPrimeNumber(number));
         }
     }
 }

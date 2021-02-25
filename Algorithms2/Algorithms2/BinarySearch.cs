@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 namespace Algorithms2
 {
+    // asymptotic complexity is O(log(n))
     public class BinarySearch
     {
         private enum Compare

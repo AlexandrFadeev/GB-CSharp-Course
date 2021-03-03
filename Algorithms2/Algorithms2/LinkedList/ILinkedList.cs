@@ -1,4 +1,4 @@
-namespace Algorithms2.Linked_List
+namespace Algorithms2.LinkedList
 {
     public interface ILinkedList
     {

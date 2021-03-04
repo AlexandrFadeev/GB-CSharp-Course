@@ -1,5 +1,6 @@
 #nullable enable
 using System;
+using System.Text;
 
 namespace Algorithms2.LinkedList
 {
@@ -127,12 +128,15 @@ namespace Algorithms2.LinkedList
             }
             
             _listCounter--;
-            
+
             var previousNode = node.Previous;
             var nextNode = node.Next;
 
             previousNode.Next = nextNode;
             nextNode.Previous = previousNode;
+
+            node.Previous = null;
+            node.Next = null;
         }
 
         /// <summary>
@@ -238,18 +242,27 @@ namespace Algorithms2.LinkedList
 
         public void Print()
         {
+            Console.WriteLine(ToString());
+        }
+
+        public override string ToString()
+        {
+            var stringBuilder = new StringBuilder();
+            
             if (_head == null)
             {
-                Console.WriteLine("List is empty");
-                return;
+                return stringBuilder.Append("List is empty").ToString();
             }
 
             var tempNode = _head;
             while (tempNode != null)
             {
-                Console.Write($"[{tempNode.Data}] -> ");
+                // Console.Write($"[{tempNode.Data}] -> ");
+                stringBuilder.Append($"[{tempNode.Data}] -> ");
                 tempNode = tempNode.Next;
             }
+
+            return stringBuilder.ToString();
         }
 
         private bool IndexIsInBoundsOfList(int index)

@@ -10,19 +10,37 @@ namespace Algorithms2UnitTest.LinkedListTests
         private DoublyLinkedList _linkedList;
         private Node[] _nodes;
         
+        private Node _headNode;
+        private Node _secondNode;
+        private Node _thirdNode;
+        private Node _fourthNode;
+        private Node _fifthNode;
+        
         [SetUp]
         public void Setup()
         {
+            _headNode = new Node(0);
+            _secondNode = new Node(1);
+            _thirdNode = new Node(2);
+            _fourthNode = new Node(3);
+            _fifthNode = new Node(4);
+
             _nodes = new[]
             {
-                new Node(0),
-                new Node(1),
-                new Node(2),
-                new Node(3),
-                new Node(4)
+                _headNode,
+                _secondNode,
+                _thirdNode,
+                _fourthNode,
+                _fifthNode
             };
-
-            _linkedList = DoublyListWithNodes(_nodes);
+            
+            _linkedList = new DoublyLinkedList();
+            
+            _linkedList.AddNode(_headNode);
+            _linkedList.AddNode(_secondNode);
+            _linkedList.AddNode(_thirdNode);
+            _linkedList.AddNode(_fourthNode);
+            _linkedList.AddNode(_fifthNode);
         }
 
         [Test]
@@ -116,47 +134,22 @@ namespace Algorithms2UnitTest.LinkedListTests
             Assert.AreNotEqual(node, actualResult);
         }
 
-        [TestCase(2)]
-        public void RemoveNode_PassingTest(int removeIndex)
+        [TestCaseSource()]
+        public void RemoveNode_PassingTest(int removeIndex, Node expectedPreviousNode, Node expectedNextNode)
         {
             var nodeToRemove = _nodes[removeIndex];
-            _linkedList.RemoveNode(nodeToRemove);
-
-            var expectedLinkedList = DoublyLinkedListWithNodesAndRemovedIndex(_nodes, removeIndex);
             
-            Assert.AreEqual(expectedLinkedList, _linkedList);
+            _linkedList.RemoveNode(nodeToRemove);
+            
+            Assert.AreEqual(_secondNode.Next, _fourthNode);
+            Assert.AreEqual(_fourthNode.Previous, _secondNode);
+            Assert.IsNull(nodeToRemove.Previous);
+            Assert.IsNull(nodeToRemove.Next);
         }
-        
-        private DoublyLinkedList DoublyListWithNodes(IEnumerable<Node> nodes)
+
+        private object[] RemoveNodeCases =
         {
-            var linkedList = new DoublyLinkedList();
-
-            foreach (var node in nodes)
-            {
-                linkedList.AddNode(node);
-            }
-
-            return linkedList;
-        }
-
-        private DoublyLinkedList DoublyLinkedListWithNodesAndRemovedIndex(IEnumerable<Node> nodes, int removeIndex)
-        {
-            var linkedList = new DoublyLinkedList();
-            var index = 0;
-
-            while (index < nodes.Count() - 1)
-            {
-                if (index == removeIndex)
-                {
-                    index++;
-                    continue;
-                }
-                
-                linkedList.AddNode(index);
-                index++;
-            }
-
-            return linkedList;
-        }
+            new object[] { 2, _secondNode }
+        };
     }
 }

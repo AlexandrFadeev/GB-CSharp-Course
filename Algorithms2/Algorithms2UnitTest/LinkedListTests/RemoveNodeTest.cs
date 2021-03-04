@@ -1,3 +1,4 @@
+using System;
 using NUnit.Framework;
 using Algorithms2.LinkedList;
 
@@ -135,7 +136,7 @@ namespace Algorithms2UnitTest.LinkedListTests
         [TestCase(1)]
         [TestCase(2)]
         [TestCase(3)]
-        public void RemoveNode_PassingTest(int removeIndex)
+        public void RemoveNode_AtIndex_PassingTest(int removeIndex)
         {
             var nodeToRemove = _nodes[removeIndex];
             var previousNode = nodeToRemove.Previous;
@@ -150,10 +151,48 @@ namespace Algorithms2UnitTest.LinkedListTests
         }
 
         [Test]
+        public void RemoveNode_AtIndex_FailingTest()
+        {
+            var upperBoundIndex = _linkedList.GetCount();
+            var lowerBoundIndex = -1;
+            
+            Assert.Throws<IndexOutOfRangeException>(() => _linkedList.RemoveNode(upperBoundIndex));
+            Assert.Throws<IndexOutOfRangeException>(() => _linkedList.RemoveNode(lowerBoundIndex));
+        }
+
+        [Test]
+        public void RemoveNode_InMiddle_PassingTest()
+        {
+            var nodeToRemove = _headNode;
+            var previousNode = nodeToRemove.Previous;
+            var nextNode = nodeToRemove.Next;
+            
+            _linkedList.RemoveNode(_secondNode);
+            
+            Assert.AreEqual(previousNode.Next, nextNode);
+            Assert.AreEqual(previousNode, nextNode.Previous);
+            Assert.IsNull(nodeToRemove.Previous);
+            Assert.IsNull(nodeToRemove.Next);
+        }
+
+        [Test]
         public void RemoveNode_FailingTest()
         {
             var nonExistingNodeInList = new Node(6);
-            _linkedList.RemoveNode(nonExistingNodeInList);
+            Assert.Throws<NodeNotFoundException>(() => _linkedList.RemoveNode(nonExistingNodeInList));
+        }
+
+        [Test]
+        public void RemoveNode_WithSingleElement_PassingTest()
+        {
+            var linkedList = new DoublyLinkedList();
+            var node = new Node(0);
+
+            linkedList.AddNode(node);
+
+            linkedList.RemoveNode(node);
+            
+            Assert.IsNull(linkedList.HeadNode);
         }
     }
 }

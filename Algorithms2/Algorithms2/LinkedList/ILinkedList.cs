@@ -1,5 +1,6 @@
 namespace Algorithms2.LinkedList
 {
+    #nullable enable
     public interface ILinkedList
     {
         int GetCount();
@@ -7,7 +8,8 @@ namespace Algorithms2.LinkedList
         void AddNodeAfter(Node node, int value);
         void RemoveNode(int index);
         void RemoveNode(Node node);
-        Node FindNode(int searchValue);
+        Node? FindNode(int searchValue);
+        Node? NodeAtIndex(int index);
         bool Contains(Node node);
     }
 }

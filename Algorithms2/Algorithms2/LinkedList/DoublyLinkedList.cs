@@ -71,10 +71,7 @@ namespace Algorithms2.LinkedList
             
             _listCounter++;
         }
-
-        // [1] <-> [2] <-> [3] <->
-        // [1] <-> [2] <-> x <-> [3] <->
-        // [1] <-> [2] <-> [3] <-> x <->
+        
         public void AddNodeAfter(Node node, int value)
         {
             var newNode = new Node(value);
@@ -120,9 +117,14 @@ namespace Algorithms2.LinkedList
             {
                 if (index == currentIndex)
                 {
-                    
+                    RemoveNode(tempNode);
+                    return;
                 }
+
+                tempNode = tempNode.Next;
             }
+
+            throw new NodeNotFoundException();
         }
         
         /// <summary>
@@ -152,9 +154,6 @@ namespace Algorithms2.LinkedList
                 RemoveLastNode();
                 return;
             }
-            
-            // <- [0] <-> [1] <-> [2] ->
-            // <- [0] ->
             
             var previousNode = node.Previous;
             var nextNode = node.Next;

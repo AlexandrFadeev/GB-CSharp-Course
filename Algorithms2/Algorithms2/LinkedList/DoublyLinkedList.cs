@@ -72,11 +72,27 @@ namespace Algorithms2.LinkedList
             _listCounter++;
         }
 
+        // [1] <-> [2] <-> [3] <->
+        // [1] <-> [2] <-> x <-> [3] <->
+        // [1] <-> [2] <-> [3] <-> x <->
         public void AddNodeAfter(Node node, int value)
         {
-            var newNode = new Node(value) {Next = node.Next, Previous = node};
-            node.Next = newNode;
+            var newNode = new Node(value);
+            var nextNode = node.Next;
+
             _listCounter++;
+            
+            if (nextNode == null)
+            {
+                newNode.Previous = node;
+                return;
+            }
+            
+            nextNode.Previous = newNode;
+            node.Next = newNode;
+
+            newNode.Previous = node;
+            newNode.Next = nextNode;
         }
 
         public void RemoveNode(int index)

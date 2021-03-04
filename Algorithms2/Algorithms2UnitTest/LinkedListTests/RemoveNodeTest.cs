@@ -163,7 +163,7 @@ namespace Algorithms2UnitTest.LinkedListTests
         [Test]
         public void RemoveNode_InMiddle_PassingTest()
         {
-            var nodeToRemove = _headNode;
+            var nodeToRemove = _secondNode;
             var previousNode = nodeToRemove.Previous;
             var nextNode = nodeToRemove.Next;
             

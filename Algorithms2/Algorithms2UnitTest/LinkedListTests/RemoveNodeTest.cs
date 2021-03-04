@@ -133,23 +133,22 @@ namespace Algorithms2UnitTest.LinkedListTests
             
             Assert.AreNotEqual(node, actualResult);
         }
-
-        [TestCaseSource()]
-        public void RemoveNode_PassingTest(int removeIndex, Node expectedPreviousNode, Node expectedNextNode)
+        
+        [TestCase(1)]
+        [TestCase(2)]
+        [TestCase(3)]
+        public void RemoveNode_PassingTest(int removeIndex)
         {
             var nodeToRemove = _nodes[removeIndex];
+            var previousNode = nodeToRemove.Previous;
+            var nextNode = nodeToRemove.Next;
             
             _linkedList.RemoveNode(nodeToRemove);
             
-            Assert.AreEqual(_secondNode.Next, _fourthNode);
-            Assert.AreEqual(_fourthNode.Previous, _secondNode);
+            Assert.AreEqual(previousNode.Next, nextNode);
+            Assert.AreEqual(previousNode, nextNode.Previous);
             Assert.IsNull(nodeToRemove.Previous);
             Assert.IsNull(nodeToRemove.Next);
         }
-
-        private object[] RemoveNodeCases =
-        {
-            new object[] { 2, _secondNode }
-        };
     }
 }

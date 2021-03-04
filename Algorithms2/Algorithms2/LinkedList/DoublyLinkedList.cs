@@ -129,8 +129,18 @@ namespace Algorithms2.LinkedList
         /// Remove given node from list.
         /// </summary>
         /// <param name="node">Node that need to be removed</param>
-        public void RemoveNode(Node node)
+        public void RemoveNode(Node? node)
         {
+            if (node == null)
+            {
+                return;
+            }
+
+            if (!Contains(node))
+            {
+                throw new NodeNotFoundException();
+            }
+
             if (node == _head)
             {
                 RemoveFirstNode();
@@ -143,8 +153,9 @@ namespace Algorithms2.LinkedList
                 return;
             }
             
-            _listCounter--;
-
+            // <- [0] <-> [1] <-> [2] ->
+            // <- [0] ->
+            
             var previousNode = node.Previous;
             var nextNode = node.Next;
 
@@ -153,6 +164,8 @@ namespace Algorithms2.LinkedList
 
             node.Previous = null;
             node.Next = null;
+            
+            _listCounter--;
         }
 
         /// <summary>
@@ -254,6 +267,28 @@ namespace Algorithms2.LinkedList
             }
 
             return null;
+        }
+
+        public bool Contains(Node node)
+        {
+            if (_head == null)
+            {
+                return false;
+            }
+
+            var tempNode = _head;
+
+            while (tempNode != null)
+            {
+                if (node.Equals(tempNode))
+                {
+                    return true;
+                }
+                
+                tempNode = tempNode.Next;
+            }
+
+            return false;
         }
 
         public void Print()

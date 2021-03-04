@@ -8,5 +8,6 @@ namespace Algorithms2.LinkedList
         void RemoveNode(int index);
         void RemoveNode(Node node);
         Node FindNode(int searchValue);
+        bool Contains(Node node);
     }
 }

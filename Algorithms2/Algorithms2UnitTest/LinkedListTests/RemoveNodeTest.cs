@@ -148,5 +148,12 @@ namespace Algorithms2UnitTest.LinkedListTests
             Assert.IsNull(nodeToRemove.Previous);
             Assert.IsNull(nodeToRemove.Next);
         }
+
+        [Test]
+        public void RemoveNode_FailingTest()
+        {
+            var nonExistingNodeInList = new Node(6);
+            _linkedList.RemoveNode(nonExistingNodeInList);
+        }
     }
 }

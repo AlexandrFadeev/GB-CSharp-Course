@@ -10,8 +10,7 @@ namespace Algorithms2UnitTest.LinkedListTests
         private static Node _secondNode;
         private static Node _thirdNode;
         private static Node _fourthNode;
-        private static Node _fifthNode;
-        
+
         [SetUp]
         public void Setup()
         {
@@ -21,7 +20,6 @@ namespace Algorithms2UnitTest.LinkedListTests
             _secondNode = new Node(1);
             _thirdNode = new Node(2);
             _fourthNode = new Node(3);
-            _fifthNode = new Node(4);
         }
 
         [Test]

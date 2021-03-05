@@ -3,7 +3,7 @@ using Algorithms2.LinkedList;
 
 namespace Algorithms2UnitTest.LinkedListTests
 {
-    public class ContainsNodeTest
+    public class FindNodeByIndex
     {
         private DoublyLinkedList _linkedList;
         
@@ -32,19 +32,19 @@ namespace Algorithms2UnitTest.LinkedListTests
         }
 
         [Test]
-        public void ContainsNode_PassingTest()
+        public void FindNodeByIndex_PassingTest()
         {
-            Assert.IsTrue(_linkedList.Contains(_headNode));
-            Assert.IsTrue(_linkedList.Contains(_thirdNode));
-            Assert.IsTrue(_linkedList.Contains(_fifthNode));
+            SomeTest(_headNode, 0);
+            SomeTest(_secondNode, 1);
+            SomeTest(_thirdNode, 2);
+            SomeTest(_fourthNode, 3);
+            SomeTest(_fifthNode, 4);
         }
 
-        [Test]
-        public void ContainsNode_FailingNode()
+        private void SomeTest(Node expectedResult, int index)
         {
-            var nonExistingNode = new Node(0);
-            Assert.IsFalse(_linkedList.Contains(nonExistingNode));
-            Assert.IsFalse(_linkedList.Contains(new Node(0)));
+            var actualResult = _linkedList.NodeAtIndex(index);
+            Assert.AreEqual(expectedResult, actualResult);
         }
     }
 }

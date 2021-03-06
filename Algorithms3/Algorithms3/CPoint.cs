@@ -1,17 +1,19 @@
+using System;
+
 namespace Algorithms3
 {
     /// <summary>
     /// Representing Point class
     /// </summary>
-    public class CPoint
-    {
-        public float X { get; set; }
-        public float Y { get; set; }
+    public class CPoint<T>
+    { 
+        public T X { get; set; } 
+        public T Y { get; set; }
 
-        public CPoint(float x, float y)
-        {
-            X = x;
-            Y = y;
+        public CPoint(T x, T y)
+        { 
+            X = x; 
+            Y = y; 
         }
     }
 }

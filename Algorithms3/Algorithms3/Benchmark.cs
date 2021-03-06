@@ -5,29 +5,72 @@ namespace Algorithms3
 {
     public class Benchmark
     {
-        private float CPointSum(CPoint pointOne, CPoint pointTwo)
+        public float CPointFloatSum(CPoint<float> pointOne, CPoint<float> pointTwo)
         {
-            var xValue = pointOne.X - pointTwo.X;
-            var yValue = pointOne.Y - pointTwo.Y;
+            var xValue = pointTwo.X - pointOne.X;
+            var yValue = pointTwo.Y - pointOne.Y;
 
             return MathF.Sqrt((xValue * xValue) + (yValue * yValue));
         }
 
-        private float SPointSum(SPoint pointOne, SPoint pointTwo)
+        public double CPointDoubleSum(CPoint<double> pointOne, CPoint<double> pointTwo)
         {
-            var xValue = pointOne.X - pointTwo.X;
-            var yValue = pointOne.Y - pointTwo.Y;
+            var xValue = pointTwo.X - pointOne.X;
+            var yValue = pointTwo.Y - pointOne.Y;
 
+            return Math.Sqrt((xValue * xValue) + (yValue * yValue));
+        }
+
+        public float SPointFloatSum(SPoint<float> pointOne, SPoint<float> pointTwo)
+        {
+            var xValue = pointTwo.X - pointOne.X;
+            var yValue = pointTwo.Y - pointOne.Y;
+            
             return MathF.Sqrt((xValue * xValue) + (yValue * yValue));
+        }
+
+        public double SpointDoubleSum(SPoint<double> pointOne, SPoint<double> pointTwo)
+        {
+            var xValue = pointTwo.X - pointOne.X;
+            var yValue = pointTwo.Y - pointOne.Y;
+
+            return Math.Sqrt((xValue * xValue) + (yValue * yValue));
+        }
+
+        [Benchmark]
+        public void TestClassFloatPoint()
+        {
+            var pointOne = new CPoint<float>(43, 74);
+            var pointTwo = new CPoint<float>(12, 7);
+
+            CPointFloatSum(pointOne, pointTwo);
         }
         
         [Benchmark]
-        public void TestClassPoint()
+        public void TestClassDoublePoint()
         {
-            var pointOne = new CPoint(43, 74);
-            var pointTwo = new CPoint(12, 7);
+            var pointOne = new CPoint<double>(43, 74);
+            var pointTwo = new CPoint<double>(12, 7);
 
-            CPointSum(pointOne, pointTwo);
+            CPointDoubleSum(pointOne, pointTwo);
+        }
+
+        [Benchmark]
+        public void TestStructFloatPoint()
+        {
+            var pointOne = new SPoint<float>(43, 74);
+            var pointTwo = new SPoint<float>(12, 7);
+
+            SPointFloatSum(pointOne, pointTwo);
+        }
+        
+        [Benchmark]
+        public void TestStructDoublePoint()
+        {
+            var pointOne = new SPoint<double>(43, 74);
+            var pointTwo = new SPoint<double>(12, 7);
+
+            SpointDoubleSum(pointOne, pointTwo);
         }
     }
 }

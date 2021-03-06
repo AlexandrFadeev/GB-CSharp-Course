@@ -1,11 +1,14 @@
 ﻿
+using System;
+using BenchmarkDotNet.Running;
+
 namespace Algorithms3
 {
     class Program
     {
         static void Main(string[] args)
         {
-            // TODO: Missing implementation...
+            BenchmarkSwitcher.FromAssembly(typeof(Program).Assembly).Run(args);
         }
     }
 }

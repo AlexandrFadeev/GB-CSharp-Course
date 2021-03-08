@@ -7,7 +7,7 @@ namespace Algorithms4
     {
         private Random _random = new Random();
         
-        public List<string> GenerateStringsArray(int arrayLenght)
+        public List<string> GenerateStringsArray(uint arrayLenght)
         {
             var wordLenght = 8;
             var tempString = "";

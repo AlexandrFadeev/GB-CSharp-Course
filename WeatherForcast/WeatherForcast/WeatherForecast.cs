@@ -4,6 +4,14 @@ namespace WeatherForcast
 {
     public class WeatherForecast
     {
+        public WeatherForecast() {}
+
+        public WeatherForecast(DateTime date, int temperatureC)
+        {
+            Date = date;
+            TemperatureC = temperatureC;
+        }
+        
         public DateTime Date { get; set; }
 
         public int TemperatureC { get; set; }

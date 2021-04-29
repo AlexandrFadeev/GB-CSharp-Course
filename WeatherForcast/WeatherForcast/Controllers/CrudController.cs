@@ -21,7 +21,7 @@ namespace WeatherForcast.Controllers
         }
 
         [HttpGet("forcast")]
-        public IActionResult GetForcastOfDate([FromQuery] string date)
+        public IActionResult GetForcastOfDate([FromQuery] DateTime date)
         {
             var forecast = _dataStorage.Forecast(date);
             return Ok(forecast);
@@ -30,28 +30,23 @@ namespace WeatherForcast.Controllers
         [HttpPost("add/forcast")]
         public IActionResult CreateForcast([FromBody] WeatherForecast forecast)
         {
-            var weatherForecast = _dataStorage.AddWeatherForecast(forecast);
-            return Ok(weatherForecast);
-        }
-
-        [HttpPost("add/temperature")]
-        public IActionResult AddTemperatureAtDate([FromQuery] int temperature, [FromQuery] string date)
-        {
-            var forecast = _dataStorage.AddTemperaturAtDate(temperature, date);
-            return Ok(forecast);
+            _dataStorage.AddWeatherForecast(forecast);
+            return Ok();
         }
 
         [HttpPut("update")]
-        public IActionResult Update([FromQuery] int temperature, [FromQuery] string date)
+        public IActionResult Update([FromQuery] int temperature, [FromQuery] DateTime date)
         {
             var forecast = _dataStorage.Update(temperature, date);
             return Ok(forecast);
         }
 
         [HttpDelete("delete")]
-        public IActionResult Delete([FromQuery] string date)
+        public IActionResult Delete([FromQuery] DateTime date)
         {
             var forecast = _dataStorage.Remove(date);
+            
+            // Should we send back deleted object after delete ?
             return Ok(forecast);
         }
     }

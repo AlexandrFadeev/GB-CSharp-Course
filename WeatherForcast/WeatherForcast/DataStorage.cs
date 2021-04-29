@@ -19,49 +19,28 @@ namespace WeatherForcast
             _forecasts = forecasts;
         }
 
-        public WeatherForecast AddTemperaturAtDate(int temperature, string date)
-        {
-            DateTime dateTime = DateTime.Parse(date);
-            WeatherForecast forecast = new WeatherForecast();
-            forecast.Date = dateTime;
-            forecast.TemperatureC = temperature;
-            
-            _forecasts.Add(forecast);
-            return _forecasts.Last();
-        }
-
-        public WeatherForecast AddWeatherForecast(WeatherForecast forecast)
+        public void AddWeatherForecast(WeatherForecast forecast)
         {
             _forecasts.Add(forecast);
-            return _forecasts.Last();
         }
 
-        public WeatherForecast Update(int temperature, string date)
+        public WeatherForecast Update(int temperature, DateTime date)
         {
-            DateTime dateTime = DateTime.Parse(date);
-            int index = _forecasts.FindIndex(forcast => forcast.Date == dateTime);
-            if (_forecasts.Count > 0 && index > 0 && index < _forecasts.Count)
-            {
-                _forecasts[index].TemperatureC = temperature;
-                return _forecasts[index];
-            }
-
-            return null;
+            var forecastAtDate = _forecasts.FirstOrDefault(forecast => forecast.Date == date);
+            return forecastAtDate;
         }
 
-        public WeatherForecast Remove(string date)
+        public WeatherForecast Remove(DateTime date)
         {
-            DateTime dateTime = DateTime.Parse(date);
-            WeatherForecast forecast = _forecasts.Find(forcast => forcast.Date == dateTime);
+            WeatherForecast forecast = _forecasts.Find(forcast => forcast.Date == date);
             _forecasts.Remove(forecast);
             
             return forecast;
         }
 
-        public WeatherForecast Forecast(string date)
+        public WeatherForecast Forecast(DateTime date)
         {
-            DateTime dateTime = DateTime.Parse(date);
-            return _forecasts.Find(forcast => forcast.Date == dateTime);
+            return _forecasts.Find(forcast => forcast.Date == date);
         }
 
         public List<WeatherForecast> AllForcasts()

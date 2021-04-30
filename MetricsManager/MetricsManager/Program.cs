@@ -13,6 +13,7 @@ namespace MetricsManager
     {
         public static void Main(string[] args)
         {
+            // Not implemented yet. Estimated time of implementation 5.05.2021 
             CreateHostBuilder(args).Build().Run();
         }
 

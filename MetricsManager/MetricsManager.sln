@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetricsManager", "MetricsManager\MetricsManager.csproj", "{DC39B695-FF9E-4094-B1C8-4286D77522EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC39B695-FF9E-4094-B1C8-4286D77522EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC39B695-FF9E-4094-B1C8-4286D77522EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC39B695-FF9E-4094-B1C8-4286D77522EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC39B695-FF9E-4094-B1C8-4286D77522EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
